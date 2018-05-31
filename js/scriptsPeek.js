@@ -1,25 +1,16 @@
+ $(document).ready(function() {
+   $(".clickable").click(function(){
+     $("#initially-showing").toggle();
+     $("#initially-hidden").toggle();
+   });
+ });
 
 /*
-$(document).ready(function() {
-  $("p").click(function() {
-    $("starbucks_showing").show();
-    $("starbucks_hidden").hide();
-*/
-    //$(".starbucks-showing").toggle();
-    //$(".starbucks-hidden").toggle();
+fadeIN
 
-$(document).ready(function() {
-  $(".clickable").click(function() {
-    $(".starbucks-showing").toggle();
-    $(".starbucks-hidden").toggle();
-  });
-});
+fadeToggle
 
-/*
-fadeIn()
-fadeOut()
-fadeToggle()
-slideDown()
-slideUp()
-slideToggle()
+slideUp
+
+slideToggle
 */
